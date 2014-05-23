@@ -4,6 +4,7 @@
 // Declare app level module which depends on filters, and services
 angular.module('howlandCornhole', [
   'ngRoute',
+  'akoenig.deckgrid',
   'howlandCornhole.filters',
   'howlandCornhole.services',
   'howlandCornhole.directives',

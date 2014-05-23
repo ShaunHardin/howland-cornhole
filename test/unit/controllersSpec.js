@@ -3,18 +3,44 @@
 /* jasmine specs for controllers go here */
 
 describe('controllers', function(){
-  beforeEach(module('howlandCornhole.controllers'));
+  
 
+  describe('HomeController', function() {
+    var scope, ctrl;
 
-  it('should ....', inject(function($controller) {
-    //spec body
-    var homeCtrl = $controller('HomeController', { $scope: {} });
-    expect(homeCtrl).toBeDefined();
-  }));
+    beforeEach(module('howlandCornhole.controllers'));
+    
+    beforeEach(inject(function($controller) {
+      scope = {};
+      ctrl = $controller('HomeController', {$scope:scope});
+    }));
 
-  it('should ....', inject(function($controller) {
-    //spec body
-    var galleryCtrl = $controller('GalleryController', { $scope: {} });
-    expect(galleryCtrl).toBeDefined();
-  }));
+    it('should be defined', function() {
+      //spec body
+      expect(ctrl).toBeDefined();
+    });
+
+  });
+
+  describe('GalleryController', function() {
+    var scope, ctrl;
+
+    beforeEach(module('howlandCornhole.controllers'));
+
+    beforeEach(inject(function($controller) {
+      scope = {};
+      ctrl = $controller('GalleryController', {$scope:scope});
+    }));
+
+    it('should be defined', function() {
+      //spec body
+      expect(ctrl).toBeDefined();
+    });
+
+    it('should have image data', function() {
+      expect(scope.images.length).toBe(2);
+    });
+
+  });
+
 });
