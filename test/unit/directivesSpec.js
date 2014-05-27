@@ -3,17 +3,26 @@
 /* jasmine specs for directives go here */
 
 describe('directives', function() {
-  beforeEach(module('howlandCornhole.directives'));
+  var $scope, $compile;
 
-  describe('app-version', function() {
-    it('should print current version', function() {
-      module(function($provide) {
-        $provide.value('version', 'TEST_VER');
-      });
-      inject(function($compile, $rootScope) {
-        var element = $compile('<span app-version></span>')($rootScope);
-        expect(element.text()).toEqual('TEST_VER');
-      });
-    });
-  });
+  beforeEach(module('howlandCornhole.directives'));
+  // module(function($provide) {
+  //   $provide.value('version', 'TEST_VER');
+  // });
+  beforeEach(inject(function (_$rootScope_, _$compile_) {
+    $scope = _$rootScope_.$new();
+    $compile = _$compile_;
+  }));
+
+  // describe('app-version', function() {
+  //   it('should print current version', function() {
+  //     // module(function($provide) {
+  //     //   $provide.value('version', 'TEST_VER');
+  //     // });
+
+  //     var element = $compile('<span app-version></span>')($scope);
+  //     expect(element.text()).toEqual('TEST_VER');
+  //   });
+  // });
+
 });

@@ -38,7 +38,7 @@ describe('controllers', function(){
     });
 
     it('should have the correct number of images', function() {
-      expect(scope.images.length).toBe(5);
+      expect(scope.images.length).toBe(12);
     });
 
   });
