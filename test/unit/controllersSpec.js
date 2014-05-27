@@ -37,8 +37,8 @@ describe('controllers', function(){
       expect(ctrl).toBeDefined();
     });
 
-    it('should have image data', function() {
-      expect(scope.images.length).toBe(2);
+    it('should have the correct number of images', function() {
+      expect(scope.images.length).toBe(5);
     });
 
   });

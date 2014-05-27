@@ -12,7 +12,8 @@ angular.module('howlandCornhole.controllers', [])
 				{name: "Soccer Ball", src: "/app/img/soccerBall.png"},
 				{name: "Pella Custom", src: "/app/img/pella.png"},
 				{name: "Single OSU Triangle", src: "/app/img/osuSingleTriangle.png"},
-				{name: "OSU Triangle Pair", src: "/app/img/osuTriangle.png"}
+				{name: "OSU Triangle Pair", src: "/app/img/osuTriangle.png"},
+				{name: "Harley Logo", src: "/app/img/harley2.png"}
 			];
 
   	}]);
