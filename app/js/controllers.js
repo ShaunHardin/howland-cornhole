@@ -10,7 +10,7 @@ angular.module('howlandCornhole.controllers', [])
 		$scope.images =  [
 				{name: "Stained Block O", src: "/app/img/blockO.png"},
 				{name: "Soccer Ball", src: "/app/img/soccerBall.png"},
-				{name: "Single OSU Triangle", src: "/app/img/osuSingleTriangle.png"},
+				{name: "Harley Logo", src: "/app/img/harley2.png"},
 				{name: "OSU Triangle Pair", src: "/app/img/osuTriangle.png"},
 				{name: "Dual Harley Logos", src: "/app/img/harley.png"},
 				{name: "Freedom Logo", src: "/app/img/freedom.png"},
@@ -18,7 +18,7 @@ angular.module('howlandCornhole.controllers', [])
 				{name: "Browns Mixed Logo", src: "/app/img/brownsMixed.png"},
 				{name: "Pella Custom", src: "/app/img/pella.png"},
 				{name: "Brutus OSU", src: "/app/img/brutusStriped.png"},
-				{name: "Harley Logo", src: "/app/img/harley2.png"},
+				{name: "Single OSU Triangle", src: "/app/img/osuSingleTriangle.png"},
 				{name: "Browns Logo", src: "/app/img/brownsHelmet.png"}
 		];
 
