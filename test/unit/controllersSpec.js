@@ -38,15 +38,15 @@ describe('controllers', function(){
     });
 
     it('should have the correct number of total images', function() {
-      expect(scope.images.length).toBe(13);
+      expect(scope.images.length).toBe(58);
     });
 
     it('should have the correct number of board images', function() {
-      expect(scope.boardImages.length).toBe(12);
+      expect(scope.boardImages.length).toBe(48);
     });
 
     it('should have the correct number of other images', function() {
-      expect(scope.otherImages.length).toBe(1);
+      expect(scope.otherImages.length).toBe(10);
     });
 
   });
