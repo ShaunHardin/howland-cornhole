@@ -37,8 +37,16 @@ describe('controllers', function(){
       expect(ctrl).toBeDefined();
     });
 
-    it('should have the correct number of images', function() {
-      expect(scope.images.length).toBe(12);
+    it('should have the correct number of total images', function() {
+      expect(scope.images.length).toBe(13);
+    });
+
+    it('should have the correct number of board images', function() {
+      expect(scope.boardImages.length).toBe(12);
+    });
+
+    it('should have the correct number of other images', function() {
+      expect(scope.otherImages.length).toBe(1);
     });
 
   });

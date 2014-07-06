@@ -12,6 +12,7 @@ angular.module('howlandCornhole', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/home.html', controller: 'HomeController'});
-  $routeProvider.when('/gallery', {templateUrl: 'partials/gallery.html', controller: 'GalleryController'});
+  $routeProvider.when('/boardGallery', {templateUrl: 'partials/boardGallery.html', controller: 'GalleryController'});
+  $routeProvider.when('/otherGallery', {templateUrl: 'partials/otherGallery.html', controller: 'GalleryController'});
   $routeProvider.otherwise({redirectTo: '/'});
 }]);

@@ -1,0 +1,17 @@
+<h1>Tables, Trays, etc.</h1>
+<h4>
+	Below, you can browse customized tables, trays, and other items that I have created in the past. If you have a logo or image in mind that you don't see below, please <a href="mailto:RHardin527@aol.com">email RHardin527@aol.com</a> and we can discuss your desired design!
+</h4>
+
+<div ng-controller="GalleryController">
+	<div deckgrid source="otherImages" class="otherDeckgrid">
+		<div class="otherPhoto">
+		    <div class="photo-wrapper">
+		    	<img src="" data-ng-src="{{card.src}}" class="animation-fade" data-imageloaded data-loadedclass="animation-faded">
+		    </div>
+		    <div class="photo-description">
+		    	<h3>{{card.name}}</h3>
+			</div>
+		</div>
+	</div>
+</div>
