@@ -4,6 +4,10 @@
   width: 1300px;
 }
 
+.content {
+  padding-top: 60px;
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
