@@ -166,3 +166,12 @@
    -o-transition: opacity 1s linear .2s;
    transition: opacity 1s linear .2s;
 }
+
+.flexslider-container {
+    width: 550px;
+    margin: 10px auto;
+}
+
+.slides {
+  background-color: #E6E6E6;;
+}

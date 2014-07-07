@@ -5,6 +5,7 @@
 angular.module('howlandCornhole', [
   'ngRoute',
   'akoenig.deckgrid',
+  'angular-flexslider',
   'howlandCornhole.filters',
   'howlandCornhole.services',
   'howlandCornhole.directives',

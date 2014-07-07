@@ -57,6 +57,10 @@
 		{"category": "Boards", "name": "WWE Logo", "src": "/app/img/w.png"},
 		{"category": "Boards", "name": "White OSU Triangle", "src": "/app/img/whiteOSUtri.png"},
 		{"category": "Boards", "name": "Yankees Logo", "src": "/app/img/yankStripes.png"},
-		{"category": "Boards", "name": "YSU Logo", "src": "/app/img/ysu.png"}
+		{"category": "Boards", "name": "YSU Logo", "src": "/app/img/ysu.png"},
+		{"category": "Slide", "name": "Stained OSU", "src": "/app/img/stainedBlockOSlider.png"},
+		{"category": "Slide", "name": "Harley Dual Boards", "src": "/app/img/HarleyDavidson4Slider.png"},
+		{"category": "Slide", "name": "Corona Boards", "src": "/app/img/coronaSlider.png"},
+		{"category": "Slide", "name": "Soccer Ball", "src": "/app/img/SoccerBallSlider.png"}
 	]
 }

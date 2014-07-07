@@ -1,1 +1,9 @@
 <p>This is the partial for the home view.</p>
+
+<div ng-controller="HomeController">
+	<flex-slider slide="img in slideImages track by $index" slideshow="true" slideshow-speed="4000">
+	    <li>
+	        <img ng-src="{{img.src}}">
+	    </li>
+	</flex-slider>
+</div>
